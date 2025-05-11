@@ -10,4 +10,4 @@ int main() {
   strcat(buffer1, buffer2);
   printf("%s\n", buffer1);
   return 0;
-}
+} 
