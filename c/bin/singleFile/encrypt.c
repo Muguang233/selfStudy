@@ -11,7 +11,7 @@ int main () {
         break;
       case 'z':
         printf("a");
-        break;
+        break; 
       default:
         printf("%c", c+1);
         break;
