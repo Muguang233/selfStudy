@@ -20,7 +20,7 @@ int main() {
     case 'u':
       printf("%c", c);
       break;
-    default:
+    default: 
       break;
     }
   }
