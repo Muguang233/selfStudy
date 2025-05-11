@@ -7,7 +7,7 @@ int main() {
     scanf(" %d", &input[i]);
   }
   int insert;
-  scanf(" %d", &insert);
+  scanf(" %d", &insert); 
   int pos = 0;
   for(int i = 0; i < 9; i++) {
     if(input[i] < insert) {
