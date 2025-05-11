@@ -12,7 +12,7 @@ int main() {
     } else {
       total += input;
       pcount++;
-    }
+    } 
   }
   printf("%d\n%.2lf\n", ncount, (double) total/pcount);
 
