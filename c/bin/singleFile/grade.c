@@ -12,7 +12,7 @@ void print_student(struct student *data, int n) {
     printf("%s,%s,", data[i].id, data[i].name);
     for(int j = 0; j < 3; j++) {
       j == 2 ? printf("%d\n", data[i].grade[j]) : printf("%d,", data[i].grade[j]);
-    }
+    } 
   }
 }
 
