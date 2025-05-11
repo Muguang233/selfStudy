@@ -10,7 +10,7 @@ int main() {
   int j = 2;
   for(int i = 0; i < 3; i++) {
     sum1 += mat[i][i];
-    sum2 += mat[i][j];
+    sum2 += mat[i][j]; 
     j--;
   }
   printf("%d %d\n", sum1, sum2);
