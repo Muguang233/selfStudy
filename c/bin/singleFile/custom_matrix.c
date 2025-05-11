@@ -8,7 +8,7 @@ int main() {
     for(int j = 0; j < n; j++) {
       scanf(" %d", &m[i][j]);
     }
-  }
+  } 
   int sum = 0;
   int index = n-1;
   for(int i = 0; i < n; i++) {
