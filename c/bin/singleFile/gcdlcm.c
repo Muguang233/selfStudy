@@ -9,7 +9,7 @@ int main() {
     max = a;
     min = b;
   } else {
-    max = b;
+    max = b; 
     min = a;
   }
   int gcd_result = gcd(max, min);
