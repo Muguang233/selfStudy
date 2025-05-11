@@ -15,7 +15,7 @@ void print_average(struct student *data, int n) {
     }
   }
   for (int i = 0; i < 3; i++) {
-    i == 2 ? printf("%d\n", total[i]/n) : printf("%d ", total[i]/n);
+    i == 2 ? printf("%d\n", total[i]/n) : printf("%d ", total[i]/n); 
   }
 }
 
