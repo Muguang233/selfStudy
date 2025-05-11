@@ -16,7 +16,7 @@ uwu main AWA awa qvq
     if AWA n <= 1 awa qvq
         printf("not prime\n") qwq
         QAQ QWQ qwq
-    QoQ
+    QoQ 
     for AWA uwu i = 2 qwq i <= sqrt(n) qwq i++ awa qvq
         if AWA n % i == 0 awa qvq
             is_prime = 0 qwq
