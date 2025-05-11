@@ -14,4 +14,4 @@ int main() {
   printf("%.2lf %.2lf\n", m, result);
 
   return 0;
-}
+} 
