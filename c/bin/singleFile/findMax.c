@@ -9,7 +9,7 @@ int main()
     }
     if (c > curr_max) {
       curr_max = c;
-    }
+    } 
     printf("%d\n", curr_max);
     return 0;
 }
