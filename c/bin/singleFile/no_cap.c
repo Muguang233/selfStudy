@@ -13,4 +13,4 @@ int main() {
     isCap(buffer[i]) ? printf("%c", buffer[i]+32) : printf("%c", buffer[i]);
   }
   return 0;
-}
+} 
