@@ -1,18 +1,41 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct {
+  char name[101];
+  int age;
+  int grade;
+} Student;
+
+int compare(const void *a, const void *b) {
+  Student *s1 = (Student *)a;
+  Student *s2 = (Student *)b;
+
+  if (s1->grade != s2->grade) {
+    return s1->grade - s2->grade; 
+  }
+      
+  int name_cmp = strcmp(s1->name, s2->name);
+  if (name_cmp != 0) return name_cmp;
+  return s1->age - s2->age;
+}
 
 int main() {
-  int x;
-  int hd = 0;
-  int ps = 0;
-  int fl = 0;
-  while(true) {
-    cin >> x;
-    if(x == 0) break;
-    if(x < 60) fl++;
-    if(x >=60 && x < 85) ps++;
-    if(x > 85) hd++;
-  }
-  printf(">=85:%d\n60-84:%d\n<60:%d\n", hd, ps, fl);
-  return 0;
+    int N;
+    Student students[1000];
+
+    while (scanf("%d", &N) != EOF) {
+        for (int i = 0; i < N; i++) {
+            scanf("%s %d %d", students[i].name, &students[i].age, &students[i].grade);
+        }
+
+        qsort(students, N, sizeof(Student), compare);
+
+        for (int i = 0; i < N; i++) {
+            printf("%s %d %d\n", students[i].name, students[i].age, students[i].grade);
+        }
+    }
+
+    return 0;
 }
