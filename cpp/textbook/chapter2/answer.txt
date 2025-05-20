@@ -1,0 +1,13 @@
+2.6
+
+1. c++程序的模块叫函数
+2. #include <iostream> 的作用是使编译器能识别程序代码
+3. std::cin.get(); -> cin.get(); 
+4. cout << "Hello, world" << endl;
+5. int cheeses;
+6. cheeses = 32;
+7. cheeses = cin.get();
+8. cout << "we have" << x << "varieties of cheeses." << endl;
+9. 返回类型为整数的froop()需要一个数据类型为double的参数t; 无返回类型和值的函数rattle()并且需要一个数据类型为整数的参数n
+10. void函数
+11. 并未预处理 #include <iostream> 未使用 using namespace std; 可以替换成 std::cout << xxxxx;

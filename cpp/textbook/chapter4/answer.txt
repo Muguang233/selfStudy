@@ -1,0 +1,49 @@
+1. 
+  a. char actor[30];
+  b. short betsie[100];
+  c. float chuck[13];
+  d. long double dipsea[64];
+2.
+  a. array<char, 30> actor;
+  b. array<short, 100> betsie;
+  c. array<float, 13> chuck;
+  d. array<long double, 64> dipsea;
+3. int num[5], x = 1; for(int i = 0; i < 5; i++) num[i] = x; x+=2;
+4. const int sum = num[0] + num[4];
+5. cout << ideas[1] << endl;
+6. char str[] = "cheeseburger";
+7. string str = "Waldorf Salad;
+8.
+  struct Fish {
+    string type;
+    int weight;
+    double length;
+  };
+9.
+  struct Fish fish;
+  fish.type = "type";
+  fish.weight = 2;
+  fish.length = 10.231;
+10.
+  enum Response {
+    No,
+    Yes,
+    Maybe
+  };
+11.
+  double *pted = &ted;
+  cout << *pted << endl;
+12.
+  float *ptr = &treacle[0];
+  float sum = *ptr + (*ptr + 9);
+13.
+  int n;
+  cin >> n;
+  a. int *arr = new int[n];
+  b. vector<int> arr[n];
+14. 地址
+15.
+  struct Fish *fish = new Fish;
+  fish->type = "type";
+  fish->weight = 2;
+  fish->length = 10.231;
