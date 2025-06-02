@@ -1,0 +1,24 @@
+1. 类是一个被定义的类型 是结构的一个细分
+2. 就像一个接口 只提供可以调用的方法而不展示实际的实现
+3. 对象是根据类的具体定义和内容而创建的一个数据体
+4. 如果有多个实例对象 那不同的对象里保存的变量是不同的 但是函数的作用是一样的
+5.
+  class bank {
+    string name;
+    int account;
+    double balance;
+  public:
+    bank(string name, int account, double balance);
+    void show_info();
+    void deposit(double amount);
+    void withdraw(double amount);
+  }
+6.创建对象会调用构造函数 如果类没有定义构造函数 就不会初始化值而是调用默认构造函数 析构函数在删除对象时自动调用
+7.
+  bank(string name, int account, double balance) {
+    name = name;
+    account = account;
+    balance = balance;
+  }
+8. 默认构造函数在于将对象的成员变量初始化为默认值而不用额外的初始化对象里的所有成员变量 大多成员变量都是private值而无法被调用
+10. this 是类方法可用的指针 指向对象 *this指向对象的地址
