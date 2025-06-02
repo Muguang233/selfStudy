@@ -1,0 +1,52 @@
+1. 
+  a. homer会是普通的变量
+  b. file1中 全局声明变量 在file2使用extern
+  c. static
+  d. static
+2. using 声明只声明一项标识符 例如 using std::string 那只有string可以省略 std::, 
+  而using指令 using namespace std可以让所有std的名字都引入当前作用域
+3. 
+ #include <iostream>
+ int main() {
+  double x;
+  std::cout << "Enter value: ";
+  while (! (std::cin >> x) ) {
+    std::cout << "Bad input. Please enter a number: ";
+    std::cin.clear();
+    while (std::cin.get() != '\n')
+    continue;
+  }
+  std::cout << "Value = " << x << endl;
+  return 0;
+ }
+4.
+ #include <iostream>
+ using std::cin;
+ using std::cout;
+ int main() {
+  double x;
+  cout << "Enter value: ";
+  while (! (cin >> x) ) {
+    cout << "Bad input. Please enter a number: ";
+    cin.clear();
+    while (cin.get() != '\n')
+    continue;
+  }
+  cout << "Value = " << x << endl;
+ return 0;
+ }
+5. 使用static
+6. 
+  10
+  4
+  0
+  Other:10,1
+  another():10, -4
+7.
+  1
+  4, 1, 2
+  2
+  2
+  4, 1, 2
+  2
+
