@@ -1,0 +1,15 @@
+1.
+  Stonewt operator*(double mult) {
+    return Stonewt(mult*pounds);
+  }
+2. 成员函数的调用是 对象.方法() 友元函数适用于重载运算符 无需严格的格式要求
+3. 私有成员需要友元 公有不需要
+4. 
+  friend Stonewt operator*(double mult, Stonewt s) {
+    return Stonewt(mult*s.pounds);
+  }
+5.
+  sizeof
+  ::
+  ?:
+7. 
