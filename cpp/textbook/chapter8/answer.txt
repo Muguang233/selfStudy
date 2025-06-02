@@ -1,0 +1,36 @@
+1.当一个函数的代码体只有一行例如 return a+b;
+2. 
+  a. void song(const char *name, int times = 1);
+  b. 
+  c. 可以 但是time的默认值需要保留，只有name有默认值但time没有的话是不合法的
+3. 
+
+void iquote(int x) {
+  cout << '"' << x << '"';
+}
+void iquote(double x) {
+  cout << '"' << x << '"';
+}
+void iquote(string x) {
+  cout << '"' << x << '"';
+}
+
+4. 
+void print(box &boxref) {
+  cout << boxref.maker << endl;
+  cout << boxref.height << endl;
+  cout << boxref.length << endl;
+  cout << boxref.width << endl;
+}
+void getVol(box &boxref) {
+  boxref.volume = boxref.height * boxref.length * boxref.width;
+}
+
+6.
+  a. mass(density, volume = 1);
+  b. 不可 除非两个参数顺序反过来
+  c. template <class T> average(T a, T b) return (a+b)/2;
+  d. 
+7. template <class T> T findMax(T a, T b) return a > b ? a : b;
+8. box findMax(box a, box b) return a.volume > b.volume ? a : b;
+9. 
