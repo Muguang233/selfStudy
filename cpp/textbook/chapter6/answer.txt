@@ -1,0 +1,35 @@
+1. 时间复杂度更优，第二种格式在执行if(ch == ' ')时如果为true 便会进入下一个循环
+2. ch+1不等于ch+=1或者++ch;
+3. 
+4.
+  a. weight >= 115 && weight < 125;
+  b. ch == 'q' || ch == 'Q'
+  c. (x%2==0) && x != 26;
+  d. (X%2 == 0) && (x%26 != 0)
+  e. (donation >= 1000 && donation <= 2000) || guest == 1;
+  f. (ch >= 'a' && ch <= 'z') && (ch >= 'A' && ch <= 'Z')
+5. 是
+6. (x < 0) > -x : x;
+7.
+  switch (ch)
+    case 'A':
+      a_grade++;
+    break;
+    case 'B':
+      b_grade++;
+    break;
+    case 'C':
+      c_grade++;
+    break;
+    case 'D':
+      d_grade++;
+    break;
+    default:
+      f_grade++
+8.
+9.
+  int line = 0;
+  char ch;
+  while((ch.get(ch)) && ch != 'Q') {
+    if(ch == '\n') line++;
+  }
