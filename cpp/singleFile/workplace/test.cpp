@@ -5,6 +5,11 @@ void adminQuizCreate() {
   printf("我就是皮");
 }
 
+void adminQuizDescUpdate() {
+  cout << "dasdaa";
+  return;
+}
+
 int main() {
   cout << "fadf hau " << endl;
   string buffer;
