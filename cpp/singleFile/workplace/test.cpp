@@ -3,6 +3,8 @@ using namespace std;
 
 void adminQuizCreate() {
   printf("我就是皮");
+  cout << "test2";
+  return;
 }
 
 void adminQuizDescUpdate() {
