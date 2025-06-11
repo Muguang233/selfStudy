@@ -5,6 +5,11 @@ void adminQuizCreate() {
   cout << endl;
 }
 
+void adminQuizDescUpdate() {
+  cout << "dasdaa";
+  return;
+}
+
 int main() {
   cout << "fadf hau " << endl;
   string buffer;
