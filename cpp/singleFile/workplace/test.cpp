@@ -7,6 +7,7 @@ void adminQuizCreate() {
 
 void adminQuizDescUpdate() {
   cout << "dasdaa";
+  cout << "test";
   return;
 }
 
