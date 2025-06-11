@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void adminQuizCreate() {
+void adminQuizCreate_beta() {
   printf("我就是皮");
   cout << "test2";
   return;
