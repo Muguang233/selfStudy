@@ -6,5 +6,7 @@ int main() {
   string buffer;
   cin >> buffer;
   cout << buffer;
+  int n;
+  cin >> n;
   return 0;
 }
