@@ -2,7 +2,7 @@
 using namespace std;
 
 void adminQuizCreate() {
-  cout << endl;
+  printf("我就是皮");
 }
 
 int main() {
