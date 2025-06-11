@@ -9,6 +9,7 @@ void adminQuizCreate_beta() {
 
 void adminQuizDescUpdate() {
   cout << "dasdaa";
+  cout << "test";
   return;
 }
 
